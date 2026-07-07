@@ -1,6 +1,13 @@
 # 🌙 Eid Salami Wheel
 
-An interactive, responsive, and visually stunning web-based **Eid Salami Lucky Wheel** built using HTML5 Canvas, modern CSS variables, and JavaScript. Featuring a premium **Islamic Golden Theme**, fluid animations, local storage persistence, and celebratory confetti effects, it adds a touch of digital joy to Eid celebrations.
+An interactive, responsive, and visually stunning web-based **Eid Salami Lucky Wheel** built using HTML5 Canvas, modern CSS variables, and JavaScript. Featuring a premium **Islamic Golden Theme**, fluid animations, and celebratory confetti effects, it adds a touch of digital joy to Eid celebrations.
+
+---
+
+## 🚀 Live Demo
+
+Try out the live web application here:  
+👉 **[https://salami-wheel.netlify.app/](https://salami-wheel.netlify.app/)**
 
 ---
 
@@ -9,13 +16,12 @@ An interactive, responsive, and visually stunning web-based **Eid Salami Lucky W
 - **🏆 Ornate Golden Theme:** Styled with an elegant palette including emerald green, crimson red, and metallic gold accents, driven by custom CSS variables (`:root`).
 - **🎯 Dynamic Canvas Wheel:** Dynamically renders text and slices from an array of randomized monetary amounts (ranging from `0.25 Tk` to `10.00 Tk`) using the HTML5 Canvas API.
 - **📱 Fully Responsive Layout:** Employs modern CSS techniques like `clamp()`, `aspect-ratio: 1 / 1`, and standard view units (`vw`) to ensure a flawless presentation across all desktop, tablet, and mobile displays.
-- **🔒 Claim State Persistence:** Leverages `localStorage` to enforce a "one spin per user" rule, changing the button state to "Already Claimed" upon a completed spin.
+- **♾️ Infinite Spins:** Allows users to spin the wheel multiple times sequentially without blockades, instantly resetting the button state back to active after each round.
 - **🎉 Immersive Celebrations:** Integrates `canvas-confetti` to trigger custom gold and silver cascading confetti showers once the wheel lands on a prize.
-- **🛠 Secret Reset Switch:** Includes a low-opacity developer/host reset button in the bottom corner to quickly clear the local storage state for the next user.
 
 ---
 
-## 🚀 Tech Stack
+## 🛠 Tech Stack
 
 - **Markup:** HTML5
 - **Styling:** CSS3 (Custom Properties, SVG Background Patterns, Fluid Typography)
